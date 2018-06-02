@@ -14,7 +14,7 @@ namespace XamarinShared
 #if __IOS__
         [DllImport("__Internal", EntryPoint = "startNodeWithArguments")]
 #else
-		[DllImport("libnative-lib.so", EntryPoint = "startNodeWithArguments")]
+		[DllImport("libnative-lib", EntryPoint = "startNodeWithArguments")]
 #endif
 		public static extern int StartNodeWithArguments(int argument_count, string[] argv);
 	}
