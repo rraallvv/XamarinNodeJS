@@ -1,5 +1,6 @@
 ﻿using Foundation;
 using UIKit;
+using XamarinShared;
 
 namespace iOS
 {
@@ -19,8 +20,13 @@ namespace iOS
 
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
         {
-            // Override point for customization after application launch.
-            // If not required for your application you can safely delete this method
+			// Override point for customization after application launch.
+			// If not required for your application you can safely delete this method
+
+			new System.Threading.Tasks.Task(() => {
+				var srcPath = NSBundle.MainBundle.PathForResource("nodejs-project/main.js", "");
+        		CLib.StartNodeWithArguments(2, new string[]{"node", srcPath});
+			}).Start();
 
             return true;
         }

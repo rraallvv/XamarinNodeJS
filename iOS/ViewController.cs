@@ -13,18 +13,14 @@ namespace iOS
 		{
 		}
 
-		partial void UIButton21_TouchUpInside(UIButton sender)
+		partial void myButtonAction(UIButton sender)
 		{
-			var left = int.Parse(Left.Text);
-			var right = int.Parse(Right.Text);
-			var result = CLib.Add(left, right).ToString(CultureInfo.InvariantCulture);
-			Result.Text = result;
-
-			new Task(() =>
-			{
-				string nodeDir = NSBundle.MainBundle.ResourcePath + "/nodejs-project";
-				CLib.StartNodeWithArguments(2, new String[] { "node", nodeDir + "/main.js" });
-			}).Start();
+    		string localNodeServerURL = "http://127.0.0.1:3000/";
+			var versionsData = new System.Net.WebClient().DownloadString(localNodeServerURL);
+ 		   	if (!string.IsNullOrEmpty(versionsData))
+    		{
+        		myTextView.Text = versionsData;
+    		}
 		}
 	}
 }

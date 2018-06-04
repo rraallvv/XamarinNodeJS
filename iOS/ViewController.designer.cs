@@ -1,6 +1,6 @@
 // WARNING
 //
-// This file has been generated automatically by Xamarin Studio from the outlets and
+// This file has been generated automatically by Visual Studio from the outlets and
 // actions declared in your storyboard file.
 // Manual changes to this file will not be maintained.
 //
@@ -11,39 +11,32 @@ using UIKit;
 
 namespace iOS
 {
-	[Register ("ViewController")]
-	partial class ViewController
-	{
-		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UITextField Left { get; set; }
+    [Register ("ViewController")]
+    partial class ViewController
+    {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton myButton { get; set; }
 
-		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel Result { get; set; }
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextView myTextView { get; set; }
 
-		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UITextField Right { get; set; }
+        [Action ("myButtonAction:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void myButtonAction (UIKit.UIButton sender);
 
-		[Action ("UIButton21_TouchUpInside:")]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		partial void UIButton21_TouchUpInside (UIButton sender);
+        void ReleaseDesignerOutlets ()
+        {
+            if (myButton != null) {
+                myButton.Dispose ();
+                myButton = null;
+            }
 
-		void ReleaseDesignerOutlets ()
-		{
-			if (Left != null) {
-				Left.Dispose ();
-				Left = null;
-			}
-			if (Result != null) {
-				Result.Dispose ();
-				Result = null;
-			}
-			if (Right != null) {
-				Right.Dispose ();
-				Right = null;
-			}
-		}
-	}
+            if (myTextView != null) {
+                myTextView.Dispose ();
+                myTextView = null;
+            }
+        }
+    }
 }

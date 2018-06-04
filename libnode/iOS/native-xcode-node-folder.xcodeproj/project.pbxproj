@@ -7,43 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33C0B28A20512E17006376A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C0B28920512E17006376A9 /* AppDelegate.m */; };
-		33C0B28D20512E17006376A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C0B28C20512E17006376A9 /* ViewController.m */; };
-		33C0B29020512E17006376A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C0B28E20512E17006376A9 /* Main.storyboard */; };
-		33C0B29220512E17006376A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C0B29120512E17006376A9 /* Assets.xcassets */; };
-		33C0B29520512E17006376A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C0B29320512E17006376A9 /* LaunchScreen.storyboard */; };
-		33C0B29820512E17006376A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C0B29720512E17006376A9 /* main.m */; };
-		33C0B2A3205131E8006376A9 /* nodejs-project in Resources */ = {isa = PBXBuildFile; fileRef = 33C0B2A2205131E8006376A9 /* nodejs-project */; };
 		E4C08EDB20C3415E00085FD0 /* native_lib.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4C08EDA20C3415E00085FD0 /* native_lib.mm */; };
 		E4C08EDC20C3415E00085FD0 /* native_lib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4C08ED920C3415E00085FD0 /* native_lib.h */; };
 		E4C08EE320C3436E00085FD0 /* NodeMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C0B29E20512ECA006376A9 /* NodeMobile.framework */; };
-		E4C08EE420C343D300085FD0 /* libnative-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C08ED720C3415D00085FD0 /* libnative-lib.a */; };
-		E4C08EE520C3445F00085FD0 /* NodeMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C0B29E20512ECA006376A9 /* NodeMobile.framework */; };
-		E4C08EE620C3448900085FD0 /* NodeMobile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33C0B29E20512ECA006376A9 /* NodeMobile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E4C08EE020C3428300085FD0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 33C0B27D20512E17006376A9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E4C08ED620C3415D00085FD0;
-			remoteInfo = "native-lib";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		33C0B2A120512ECA006376A9 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E4C08EE620C3448900085FD0 /* NodeMobile.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E4C08ED520C3415D00085FD0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,33 +26,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		33C0B28520512E17006376A9 /* native-xcode-node-folder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "native-xcode-node-folder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33C0B28820512E17006376A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		33C0B28920512E17006376A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		33C0B28B20512E17006376A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		33C0B28C20512E17006376A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		33C0B28F20512E17006376A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		33C0B29120512E17006376A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		33C0B29420512E17006376A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		33C0B29620512E17006376A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33C0B29720512E17006376A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		33C0B29E20512ECA006376A9 /* NodeMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NodeMobile.framework; path = NodeMobile/NodeMobile.framework; sourceTree = "<group>"; };
-		33C0B2A2205131E8006376A9 /* nodejs-project */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "nodejs-project"; sourceTree = "<group>"; };
+		33C0B29E20512ECA006376A9 /* NodeMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NodeMobile.framework; path = ../NodeMobile/NodeMobile.framework; sourceTree = "<group>"; };
 		E4C08ED720C3415D00085FD0 /* libnative-lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libnative-lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C08ED920C3415E00085FD0 /* native_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = native_lib.h; sourceTree = "<group>"; };
 		E4C08EDA20C3415E00085FD0 /* native_lib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = native_lib.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		33C0B28220512E17006376A9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4C08EE420C343D300085FD0 /* libnative-lib.a in Frameworks */,
-				E4C08EE520C3445F00085FD0 /* NodeMobile.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E4C08ED420C3415D00085FD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -98,9 +47,7 @@
 		33C0B27C20512E17006376A9 = {
 			isa = PBXGroup;
 			children = (
-				33C0B2A2205131E8006376A9 /* nodejs-project */,
-				33C0B29E20512ECA006376A9 /* NodeMobile.framework */,
-				33C0B28720512E17006376A9 /* native-xcode-node-folder */,
+				E42D696F20C4E41100A7434B /* NodeMobile */,
 				E4C08ED820C3415E00085FD0 /* native-lib */,
 				33C0B28620512E17006376A9 /* Products */,
 			);
@@ -109,26 +56,18 @@
 		33C0B28620512E17006376A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33C0B28520512E17006376A9 /* native-xcode-node-folder.app */,
 				E4C08ED720C3415D00085FD0 /* libnative-lib.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		33C0B28720512E17006376A9 /* native-xcode-node-folder */ = {
+		E42D696F20C4E41100A7434B /* NodeMobile */ = {
 			isa = PBXGroup;
 			children = (
-				33C0B28820512E17006376A9 /* AppDelegate.h */,
-				33C0B28920512E17006376A9 /* AppDelegate.m */,
-				33C0B28B20512E17006376A9 /* ViewController.h */,
-				33C0B28C20512E17006376A9 /* ViewController.m */,
-				33C0B28E20512E17006376A9 /* Main.storyboard */,
-				33C0B29120512E17006376A9 /* Assets.xcassets */,
-				33C0B29320512E17006376A9 /* LaunchScreen.storyboard */,
-				33C0B29620512E17006376A9 /* Info.plist */,
-				33C0B29720512E17006376A9 /* main.m */,
+				33C0B29E20512ECA006376A9 /* NodeMobile.framework */,
 			);
-			path = "native-xcode-node-folder";
+			name = NodeMobile;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		E4C08ED820C3415E00085FD0 /* native-lib */ = {
@@ -143,25 +82,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		33C0B28420512E17006376A9 /* native-xcode-node-folder */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 33C0B29B20512E17006376A9 /* Build configuration list for PBXNativeTarget "native-xcode-node-folder" */;
-			buildPhases = (
-				33C0B28120512E17006376A9 /* Sources */,
-				33C0B28220512E17006376A9 /* Frameworks */,
-				33C0B28320512E17006376A9 /* Resources */,
-				33C0B2A120512ECA006376A9 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E4C08EE120C3428300085FD0 /* PBXTargetDependency */,
-			);
-			name = "native-xcode-node-folder";
-			productName = "native-xcode-node-folder";
-			productReference = 33C0B28520512E17006376A9 /* native-xcode-node-folder.app */;
-			productType = "com.apple.product-type.application";
-		};
 		E4C08ED620C3415D00085FD0 /* native-lib */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4C08EDD20C3415E00085FD0 /* Build configuration list for PBXNativeTarget "native-lib" */;
@@ -188,10 +108,6 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Janea Systems";
 				TargetAttributes = {
-					33C0B28420512E17006376A9 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-					};
 					E4C08ED620C3415D00085FD0 = {
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
@@ -211,37 +127,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33C0B28420512E17006376A9 /* native-xcode-node-folder */,
 				E4C08ED620C3415D00085FD0 /* native-lib */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		33C0B28320512E17006376A9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				33C0B29520512E17006376A9 /* LaunchScreen.storyboard in Resources */,
-				33C0B2A3205131E8006376A9 /* nodejs-project in Resources */,
-				33C0B29220512E17006376A9 /* Assets.xcassets in Resources */,
-				33C0B29020512E17006376A9 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		33C0B28120512E17006376A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				33C0B28D20512E17006376A9 /* ViewController.m in Sources */,
-				33C0B29820512E17006376A9 /* main.m in Sources */,
-				33C0B28A20512E17006376A9 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E4C08ED320C3415D00085FD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,33 +142,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E4C08EE120C3428300085FD0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E4C08ED620C3415D00085FD0 /* native-lib */;
-			targetProxy = E4C08EE020C3428300085FD0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		33C0B28E20512E17006376A9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				33C0B28F20512E17006376A9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		33C0B29320512E17006376A9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				33C0B29420512E17006376A9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		33C0B29920512E17006376A9 /* Debug */ = {
@@ -386,40 +250,6 @@
 			};
 			name = Release;
 		};
-		33C0B29C20512E17006376A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/NodeMobile",
-				);
-				INFOPLIST_FILE = "native-xcode-node-folder/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.janeasystems.native-xcode-node-folder";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		33C0B29D20512E17006376A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/NodeMobile",
-				);
-				INFOPLIST_FILE = "native-xcode-node-folder/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.janeasystems.native-xcode-node-folder";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		E4C08EDE20C3415E00085FD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -466,15 +296,6 @@
 			buildConfigurations = (
 				33C0B29920512E17006376A9 /* Debug */,
 				33C0B29A20512E17006376A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		33C0B29B20512E17006376A9 /* Build configuration list for PBXNativeTarget "native-xcode-node-folder" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				33C0B29C20512E17006376A9 /* Debug */,
-				33C0B29D20512E17006376A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
